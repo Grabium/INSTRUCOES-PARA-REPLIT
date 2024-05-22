@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Usar Sqlite</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <ul id="nav">
+      <li><a href="/index.html">Home</a></li>
+    </ul>
+    <h1>SQLite</h1>
+    <div id="markdown-container">conversão não funciona :(</div>
+
+    <script src="script.js">
+      var markdownContent = "# Como conectar o SQLite3 ao Laravel no Replit sem erros!";
+      
+      // Seleciona o elemento onde você deseja exibir o conteúdo Markdown
+      var markdownContainer = document.getElementById('markdown-container');
+
+      // Converte o conteúdo Markdown em HTML e insere-o no elemento
+      markdownContainer.innerHTML = marked(markdownContent);
+    </script>
+    
+  </body>
+</html>

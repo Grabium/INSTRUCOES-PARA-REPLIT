@@ -1,0 +1,48 @@
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+/*posiciona o menu na esquerda*
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 150px;
+}
+
+/*prepara para posicionar sub-menus na posição absoluta em relação a aos menu pai*
+ul li {
+position: relative;
+}
+
+/*posiciona sub-menus na posição absoluta em relação a aos menu pai*
+li ul {
+  position: absolute;
+  left: 149px;
+  top: 0;
+  display: none;
+}
+
+/*aparência*
+ul li a {
+   display: block;
+   text-decoration: none;
+   color: #E2144A;
+   background: #fff;
+   padding: 5px;
+   border: 1px solid #ccc;
+}
+
+
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
